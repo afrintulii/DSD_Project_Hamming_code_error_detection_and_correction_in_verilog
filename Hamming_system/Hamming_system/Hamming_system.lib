@@ -1,0 +1,225 @@
+timestamp=1737308478067
+
+[~A]
+D:/4.2/DSD_LAB/Hamming_code_19_13 (5)/Hamming_code_19_13/Hamming_system/src/Decoder3to8.v_D_Flip_Flop.v_error_correction.v_error_module.v_ALU.v_data_generation.v_control_logic.v_bread_board.v=0*425291*427971
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/ALU.v=0*415617*416259
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/ALU_tb.v=0*361922*362599
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/D_Flip_Flop.v=0*268407*269057
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/Decoder3to8.v=0*170086*170688
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/MAR.v=0*184628*185142
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/Memory.v=0*199258*199839
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/alu.v=0*95908*96838
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/bread_board.v=0*421392*422474
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/clock_generator.v=0*22179*22657
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/control_logic.v=0*334319*335067
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/control_logic.v_bread_board.v=0*314799*316154
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/control_logic_tb.v=0*332463*333134
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/d_flip_flop.v=0*18632*19170
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/data_generation.v=0*417410*417968
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/error_correction.v=0*356579*357298
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/error_correction_tb.v=0*352797*353519
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/error_module.v=0*325199*325722
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/error_module_tb.v=0*328645*329475
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/hamming_system.v=0*137493*138755
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/hamming_system.v_hamming_system_tb.v=0*98215*99817
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/hamming_system_tb.v=0*139706*140602
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/memory.v=0*188188*188705
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/memory_address_register.v=0*181004*181554
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/program_counter.v=0*177415*178005
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/program_counter.v_memory_address_register.v=0*2212*2940
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/program_counter.v_memory_address_register.v_memory.v_alu.v_accumulator.v=0*11559*13021
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/program_counter.v_memory_address_register.v_memory.v_alu.v_accumulator.v_clock_generator.v_hamming_system.v_hamming_system_tb.v_control_logic.v_D_Flip_Flop.v_Decoder3to8.v=0*145821*149702
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/program_counter.v_memory_address_register.v_memory.v_alu.v_accumulator.v_control_logic.v=0*15482*17456
+D:/4.2/DSD_LAB/Hamming_code_19_13/Hamming_system/src/program_counter.v_memory_address_register.v_memory.v_alu.v_accumulator.v_control_logic.v_d_flip_flop.v_clock_generator.v_hamming_system.v_hamming_system_tb.v=0*70494*73625
+LastVerilogToplevel=bread_board
+ModifyID=237
+Version=74
+
+[~MFT]
+0=11|0Hamming_system.mgf|427971|246607
+1=18|1Hamming_system.mgf|701115|677489
+3=36|3Hamming_system.mgf|425792|397291
+
+[$root]
+A/$root=22|||1*687398
+BinW64/$root=3*416506
+SLP=3*416621
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216ea54b55d9ebd0f2db6503a79517fd328
+
+[ALU]
+A/ALU=22|../src/ALU.v|9|1*695443
+BinW64/ALU=3*420609
+R=../src/ALU.v|9
+SLP=3*421666
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b3eb40c25b2a3c0379c7730185183eec26c3a7e3f34a7fa3305ed1a89643b2e7
+
+[ALU_tb]
+A/ALU_tb=22|../src/ALU_tb.v|9|1*608742
+BinW64/ALU_tb=3*366164
+R=../src/ALU_tb.v|9
+SLP=3*367234
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b991c9f412e6706da1c2ecbb67c6e5485161ae62718749930653a0f1b280d3f3
+
+[D_Flip_Flop]
+A/D_Flip_Flop=22|../src/D_Flip_Flop.v|8|1*690449
+BinW64/D_Flip_Flop=3*417174
+R=../src/D_Flip_Flop.v|8
+SLP=3*417760
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|3035114a8eea3ac612f138148cd45037d65708298f3fe4b2dead010c312b71b05576ca12071c6ac0df43eac1648d7e7b
+
+[Decoder3to8]
+A/Decoder3to8=22|../src/Decoder3to8.v|27|1*687868
+BinW64/Decoder3to8=3*416689
+R=../src/Decoder3to8.v|27
+SLP=3*416810
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|dd5aef8600a5aff65a8bb286c33592c800e82a43fe19e622863bbbb27655b8edaf37b2d491c1e4506d99b65bc6fca648
+
+[MAR]
+BinW64/MAR=3*189705
+R=../src/MAR.v|9
+SLP=3*190111
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|59bf8d8c1e7532b05822a5f0673cf1b6ee685fb2dd7c3f6094452f8902df2a78
+
+[Memory]
+A/Memory=22|../src/Memory.v|3|1*357997
+BinW64/Memory=3*197455
+R=../src/Memory.v|3
+SLP=3*198058
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ebff02703061a61c6a5bcb20ada9dd29d2bb43076aaec346c42272ea65c33e7a
+
+[accumulator]
+BinW64/accumulator=3*159202
+R=../src/accumulator.v|27
+SLP=3*159708
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|8f04b00cd15c5a78c9f70d8f743fd1e80f4a81e230d3baa403e5179ad877fb7313c38e7b7ded258f09489ec2e08f22d7
+
+[alu]
+BinW64/alu=3*156195
+R=../src/alu.v|8
+SLP=3*158147
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|fdc9c85601beb4171a6a25c637e2168e013fed1b366097c2cdfb16a51e93f119
+
+[bread_board]
+A/bread_board=22|../src/bread_board.v|3|1*701115
+BinW64/bread_board=3*424337
+R=../src/bread_board.v|3
+SLP=3*425792
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|515d06278a6d9b36b62e1e82d28547e91318c6a7986d7dfaa4e40e563bdd415c77393d123fe2ebafd2273ce700b52f18
+
+[clock_generator]
+BinW64/clock_generator=3*159981
+R=../src/clock_generator.v|9
+SLP=3*160509
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|74b5767aec544c6c2723374d46e071e00e34d9752112bc2d3245b45a3eaa24cba952e58f96bdc7727cee9a3e42cb55b3
+
+[control_logic]
+A/control_logic=22|../src/control_logic.v|9|1*698378
+BinW64/control_logic=3*423048
+R=../src/control_logic.v|9
+SLP=3*423749
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|f96c2189c3698385f875c02440a18f13a17f40922c941617b84c0d2a5e50fc423e2a8c49e54d18a2f753913a89a301a5
+
+[control_logic_tb]
+A/control_logic_tb=22|../src/control_logic_tb.v|8|1*575360
+BinW64/control_logic_tb=3*337547
+R=../src/control_logic_tb.v|8
+SLP=3*338468
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|f96c2189c3698385f875c02440a18f1324ec5098decfcbee25e9c6edc957125c89ff1f21bedb558f6ad3624fbfdc23e6
+
+[d_flip_flop]
+BinW64/d_flip_flop=3*87250
+R=../src/d_flip_flop.v|9
+SLP=3*87679
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|788ba4692486877191c950f725743c105e843cccafa61fe196be74b42a019744319584e021502a76952b1ef0fe698002
+
+[data_generation]
+A/data_generation=22|../src/data_generation.v|27|1*697282
+BinW64/data_generation=3*422130
+R=../src/data_generation.v|27
+SLP=3*422751
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|7296b7f0d0582486dcd752617fc4becdcb8993ceaa2f2caa339a87b1add3dc0403ec86d9ab23a69e5790fcde74cb3a13
+
+[error_correction]
+A/error_correction=22|../src/error_correction.v|3|1*691926
+BinW64/error_correction=3*418117
+R=../src/error_correction.v|3
+SLP=3*419194
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|0220d6e1a7164f74146dfe398db629a89bd2cf3d789b8e51f6686ff852e3d9bd1d18dd644b2f26d8d0958fc7ec0f6f9d
+
+[error_correction_tb]
+A/error_correction_tb=22|../src/error_correction_tb.v|27|1*597694
+BinW64/error_correction_tb=3*356764
+R=../src/error_correction_tb.v|27
+SLP=3*357836
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|0220d6e1a7164f74146dfe398db629a8cb15dbc52cb079fea562a6da49527f23faaa1d5eb636eef8f668bd8829cea5a4
+
+[error_module]
+A/error_module=22|../src/error_module.v|1|1*694076
+BinW64/error_module=3*419828
+R=../src/error_module.v|1
+SLP=3*420334
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|78a1124ff5f2b044de4afc661ebd711c4944f7b9e8edcf7276dc8713e035d79daa1918b9c9368f891b6b3af94408ccc9
+
+[error_module_tb]
+A/error_module_tb=22|../src/error_module_tb.v|3|1*570087
+BinW64/error_module_tb=3*333702
+R=../src/error_module_tb.v|3
+SLP=3*334982
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ff82618f5a33b421401007dc8ead7093a0bf77a6d771d4caee9600d7a810f84915db347a0cdcca2e267c05861e235c7d
+
+[hamming_system]
+BinW64/hamming_system=3*160731
+R=../src/hamming_system.v|9
+SLP=3*161518
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|45658229a1079b554b81f8b694f45c00e14ca50e51a45a01e110102297973d386350fa6bc69e8ce994d7427c4533d236
+
+[hamming_system_tb]
+A/hamming_system_tb=22|../src/hamming_system_tb.v|3|1*285562
+BinW64/hamming_system_tb=3*163906
+R=../src/hamming_system_tb.v|3
+SLP=3*165196
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|45658229a1079b554b81f8b694f45c00d17f42e038c9a7be23115ea1e7a458784b292c2429b916f870ee09cba650bf6b
+
+[memory]
+BinW64/memory=3*190965
+R=../src/memory.v|27
+SLP=3*191081
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|fce057f312e65ae91f0ff41fc895663384980004d7dbac09634d09f34f693b5a
+
+[memory_address_register]
+BinW64/memory_address_register=3*188345
+R=../src/memory_address_register.v|27
+SLP=3*188800
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|978e30838ff18f40f2dae1781e1fe905b9e6b34accf88be48d1737febad53c9626527262ddaa47cb266f3a3c4d9b973acfe60d46db324d15fbfb071dd8fb5b97
+
+[program_counter]
+BinW64/program_counter=3*186696
+R=../src/program_counter.v|8
+SLP=3*187349
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|8f4c9b71392661bb64aaf1fd1ecdee3884ee5168192b3e6ad34e2bbdf84bdd45d0270c9bf8c09924e646b8a2456ff93b
+
+[~U]
+$root=12|0*423021|
+ALU=12|0*424344|
+ALU_tb=12|0*361761||0x10
+D_Flip_Flop=12|0*423629|
+Decoder3to8=12|0*423411|
+MAR=12|0*184416||0x10
+Memory=12|0*199001|
+accumulator=12|0*144022|
+alu=12|0*143768|
+bread_board=12|0*425037||0x10
+clock_generator=12|0*144254||0x10
+control_logic=12|0*424778|
+control_logic_tb=12|0*332282||0x10
+d_flip_flop=12|0*69468|
+data_generation=12|0*424556|
+error_correction=12|0*423862|
+error_correction_tb=12|0*352609||0x10
+error_module=12|0*424105|
+error_module_tb=12|0*328466||0x10
+hamming_system=12|0*144445|
+hamming_system_tb=12|0*145096||0x10
+memory=12|0*187938|
+memory_address_register=12|0*180759|
+program_counter=12|0*177187|

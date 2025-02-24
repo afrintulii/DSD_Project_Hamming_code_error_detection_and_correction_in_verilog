@@ -1,0 +1,24 @@
+Active-HDL 15.0.261.9132 2025-01-19 23:41:18
+
+Elaboration top modules:
+Verilog Module                bread_board
+
+
+--------------------------------------------------------------------------------------------------
+Verilog Module          | Library        | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------
+bread_board             | hamming_system |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+control_logic           | hamming_system |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+data_generation         | hamming_system |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+ALU                     | hamming_system |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+error_module            | hamming_system |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+error_correction        | hamming_system |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+D_Flip_Flop             | hamming_system |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+Decoder3to8             | hamming_system |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+--------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------
+Library                 | Comment
+--------------------------------------------------------------------------------------------------
+hamming_system          | None
+--------------------------------------------------------------------------------------------------

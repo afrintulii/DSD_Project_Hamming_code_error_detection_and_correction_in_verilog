@@ -1,0 +1,12 @@
+.\src\D_Flip_Flop.v
+.\src\Decoder3to8.v
+.\src\data_generation.v
+.\src\bread_board.v
+.\src\error_module_tb.v
+.\src\error_module.v
+.\src\control_logic.v
+.\src\control_logic_tb.v
+.\src\error_correction.v
+.\src\error_correction_tb.v
+.\src\ALU.v
+.\src\ALU_tb.v

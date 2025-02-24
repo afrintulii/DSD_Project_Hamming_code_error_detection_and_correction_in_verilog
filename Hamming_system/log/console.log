@@ -1,0 +1,74 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "error_module" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+bread_board bread_board
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "error_module" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Hamming_system $dsn/src/Decoder3to8.v $dsn/src/D_Flip_Flop.v $dsn/src/error_correction.v $dsn/src/error_module.v $dsn/src/ALU.v $dsn/src/data_generation.v $dsn/src/control_logic.v $dsn/src/bread_board.v
+# Unit top modules: bread_board.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: control_logic.v (30): Length of connection (32) does not match the length of port "EN" (1) on instance "/bread_board/clu/D0".
+# SLP: Warning: control_logic.v (30): Length of connection (32) does not match the length of port "L" (1) on instance "/bread_board/clu/D0".
+# SLP: Warning: control_logic.v (40): Length of connection (32) does not match the length of port "EN" (1) on instance "/bread_board/clu/D1".
+# SLP: Warning: control_logic.v (40): Length of connection (32) does not match the length of port "L" (1) on instance "/bread_board/clu/D1".
+# SLP: Warning: control_logic.v (50): Length of connection (32) does not match the length of port "EN" (1) on instance "/bread_board/clu/D2".
+# SLP: Warning: control_logic.v (50): Length of connection (32) does not match the length of port "L" (1) on instance "/bread_board/clu/D2".
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 11 (32.35%) primitives and 23 (67.65%) other processes in SLP
+# SLP: 77 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4683 kB (elbread=427 elab2=4122 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\4.2\DSD_LAB\Hamming_code_19_13 (5)\Hamming_code_19_13\Hamming_system\src\wave.asdb
+#  11:41 PM, Sunday, January 19, 2025
+#  Simulation has been initialized
+run
+# KERNEL: Time:                    5 | Q: 000 | State: 00000001 | Data: 0111 |Encoded:xxxxxxx| Error Pos: xxx | Error data:xxxxxxx | Correct Data:xxxxxxx | Final Data:xxxx
+# KERNEL: Time:                   15 | Q: 001 | State: 00000010 | Data: 0111 |Encoded:xxxxxxx| Error Pos: xxx | Error data:xxxxxxx | Correct Data:xxxxxxx | Final Data:xxxx
+# KERNEL: Time:                   20 | Q: 001 | State: 00000010 | Data: 0111 |Encoded:xxxxxxx| Error Pos: 101 | Error data:xxxxxxx | Correct Data:xxxxxxx | Final Data:xxxx
+# KERNEL: Time:                   25 | Q: 010 | State: 00000100 | Data: 1000 |Encoded:xxxxxxx| Error Pos: 101 | Error data:xxxxxxx | Correct Data:xxxxxxx | Final Data:xxxx
+# KERNEL: Time:                   35 | Q: 011 | State: 00001000 | Data: 1000 |Encoded:1001011| Error Pos: 101 | Error data:xxxxxxx | Correct Data:xxxxxxx | Final Data:xxxx
+# KERNEL: Time:                   45 | Q: 100 | State: 00010000 | Data: 1000 |Encoded:1001011| Error Pos: 101 | Error data:1101011 | Correct Data:xxxxxxx | Final Data:xxxx
+# KERNEL: Time:                   55 | Q: 101 | State: 00100000 | Data: 1000 |Encoded:1001011| Error Pos: 101 | Error data:1101011 | Correct Data:1001011 | Final Data:1000
+# KERNEL: Time:                   65 | Q: 000 | State: 00000001 | Data: 1000 |Encoded:1001011| Error Pos: 101 | Error data:1101011 | Correct Data:1001011 | Final Data:1000
+# KERNEL: Time:                   75 | Q: 001 | State: 00000010 | Data: 1000 |Encoded:1001011| Error Pos: 101 | Error data:1101011 | Correct Data:1001011 | Final Data:1000
+# KERNEL: Time:                   85 | Q: 010 | State: 00000100 | Data: 1001 |Encoded:1001011| Error Pos: 101 | Error data:1101011 | Correct Data:1001011 | Final Data:1000
+# KERNEL: Time:                   95 | Q: 011 | State: 00001000 | Data: 1001 |Encoded:1001100| Error Pos: 101 | Error data:1101011 | Correct Data:1001011 | Final Data:1000
+# KERNEL: Time:                  105 | Q: 100 | State: 00010000 | Data: 1001 |Encoded:1001100| Error Pos: 101 | Error data:1101100 | Correct Data:1001011 | Final Data:1000
+# KERNEL: Time:                  115 | Q: 101 | State: 00100000 | Data: 1001 |Encoded:1001100| Error Pos: 101 | Error data:1101100 | Correct Data:1001100 | Final Data:1001
+# KERNEL: Time:                  125 | Q: 000 | State: 00000001 | Data: 1001 |Encoded:1001100| Error Pos: 101 | Error data:1101100 | Correct Data:1001100 | Final Data:1001
+# KERNEL: Time:                  135 | Q: 001 | State: 00000010 | Data: 1001 |Encoded:1001100| Error Pos: 101 | Error data:1101100 | Correct Data:1001100 | Final Data:1001
+# KERNEL: Time:                  145 | Q: 010 | State: 00000100 | Data: 1010 |Encoded:1001100| Error Pos: 101 | Error data:1101100 | Correct Data:1001100 | Final Data:1001
+# KERNEL: Time:                  155 | Q: 011 | State: 00001000 | Data: 1010 |Encoded:1010010| Error Pos: 101 | Error data:1101100 | Correct Data:1001100 | Final Data:1001
+# KERNEL: Time:                  165 | Q: 100 | State: 00010000 | Data: 1010 |Encoded:1010010| Error Pos: 101 | Error data:1110010 | Correct Data:1001100 | Final Data:1001
+# KERNEL: Time:                  175 | Q: 101 | State: 00100000 | Data: 1010 |Encoded:1010010| Error Pos: 101 | Error data:1110010 | Correct Data:1010010 | Final Data:1010
+# KERNEL: Time:                  185 | Q: 000 | State: 00000001 | Data: 1010 |Encoded:1010010| Error Pos: 101 | Error data:1110010 | Correct Data:1010010 | Final Data:1010
+# KERNEL: Time:                  195 | Q: 001 | State: 00000010 | Data: 1010 |Encoded:1010010| Error Pos: 101 | Error data:1110010 | Correct Data:1010010 | Final Data:1010
+# KERNEL: Time:                  205 | Q: 010 | State: 00000100 | Data: 1011 |Encoded:1010010| Error Pos: 101 | Error data:1110010 | Correct Data:1010010 | Final Data:1010
+# KERNEL: Time:                  215 | Q: 011 | State: 00001000 | Data: 1011 |Encoded:1010101| Error Pos: 101 | Error data:1110010 | Correct Data:1010010 | Final Data:1010
+# RUNTIME: Info: RUNTIME_0068 bread_board.v (74): $finish called.
+# KERNEL: Time: 220 ps,  Iteration: 0,  Instance: /bread_board,  Process: @INITIAL#67_2@.
+# KERNEL: stopped at time: 220 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.

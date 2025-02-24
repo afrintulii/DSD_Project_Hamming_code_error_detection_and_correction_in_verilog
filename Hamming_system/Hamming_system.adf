@@ -1,0 +1,50 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Hamming_system
+[Library]
+Hamming_system=.\Hamming_system\Hamming_system.lib
+[$LibMap$]
+Hamming_system=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files.Data]
+.\src\D_Flip_Flop.v=Verilog Source Code
+.\src\Decoder3to8.v=Verilog Source Code
+.\src\data_generation.v=Verilog Source Code
+.\src\bread_board.v=Verilog Source Code
+.\src\error_module_tb.v=Verilog Source Code
+.\src\error_module.v=Verilog Source Code
+.\src\control_logic.v=Verilog Source Code
+.\src\control_logic_tb.v=Verilog Source Code
+.\src\error_correction.v=Verilog Source Code
+.\src\error_correction_tb.v=Verilog Source Code
+.\src\ALU.v=Verilog Source Code
+.\src\ALU_tb.v=Verilog Source Code
+.\src\bread_board.v=Verilog Source Code
+[Files]
+/D_Flip_Flop.v=-1
+/Decoder3to8.v=-1
+/data_generation.v=-1
+/bread_board.v=-1
+/error_module_tb.v=-1
+/error_module.v=-1
+/control_logic.v=-1
+/control_logic_tb.v=-1
+/error_correction.v=-1
+/error_correction_tb.v=-1
+/ALU.v=-1
+/ALU_tb.v=-1
+/bread_board.v=-1
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
